@@ -5,4 +5,8 @@ class ApplicationController < ActionController::Base
     render html:"ははははははh"
   end
   
+  def bye
+    render html:"byebye"
+  end  
+  
 end
